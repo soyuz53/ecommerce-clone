@@ -1,0 +1,36 @@
+.home {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+}
+.home_rowInitial {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-bottom: 80px;
+  color: aliceblue;
+  margin-left: 90px;
+  margin-top: -250px;
+}
+
+.home_image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -500px;
+  mask-image: linear-gradient(to bottom, rgb(39, 49, 66), rgb(0, 0, 0, -6.3));
+  height: 90%;
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+}

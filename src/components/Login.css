@@ -1,0 +1,84 @@
+.login {
+  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(100px);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.login_logo {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  object-fit: contain;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.login_form {
+  width: 60%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-content: center;
+}
+.login_signInButton {
+  border: 1px solid;
+  background: #2545f74d;
+  border-color: #1247d499 #1427a087 #2b46b99e;
+  color: #111;
+  margin-top: 30px;
+  width: 60%;
+  height: 30px;
+  margin-left: 30px;
+}
+.login_signInButton:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(248, 246, 246, 0.5);
+}
+
+.login_container {
+  margin-bottom: 80px;
+  color: rgb(246, 246, 246);
+  align-self: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  background-color: rgb(128, 128, 128, 0.5);
+  backdrop-filter: blur(100px);
+  box-shadow: 0 0 20px rgba(46, 39, 39, 0.5);
+}
+.login_container > p {
+  margin-bottom: 15px;
+  margin-top: 65px;
+  font-size: 10px;
+}
+.login_form > h5 {
+  margin-bottom: 5px;
+}
+
+.login_form > input {
+  height: 18px;
+  width: 100%;
+}
+
+.login_registerButton {
+  border-radius: 2px;
+  width: 50%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgrey;
+}
+
+.login_registerButton:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(80, 75, 75, 0.5);
+}
